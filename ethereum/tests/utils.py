@@ -15,7 +15,7 @@ from ethereum.db import DB as DB
 from ethereum.config import Env
 __TESTDATADIR = "../tests"
 
-tempdir = tempfile.mktemp()
+tempdir = tempfile.mkstemp()
 
 
 def load_test_data(fname):
